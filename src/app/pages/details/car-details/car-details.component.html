@@ -1,0 +1,26 @@
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-4 my-auto">
+            <ngb-carousel>
+                <ng-template ngbSlide *ngFor="let prevImg of carPreviewImgs.previewImages | keyvalue">
+                    <app-image [imgUrl]="prevImg.value"></app-image>
+                </ng-template>
+            </ngb-carousel>
+        </div>
+        <div class="col-8">
+            <table class="table table-striped">
+                <tbody>
+                    <tr *ngFor="let item of carDetails | keyvalue">
+                        <td>
+                            <b>{{ item.key | textFormatter }}</b>
+                        </td>
+                        <td>{{ item.value }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <button class="btn btn-lg btn-secondary mx-auto" (click)="backToListPage()">
+      Back To List
+    </button>
+    </div>
+</div>

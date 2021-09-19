@@ -1,0 +1,10 @@
+.bg-image {
+    .img-fluid {
+        height: 175px;
+        width: 200px;
+        transition: transform 0.2s;
+        &:hover {
+            transform: scale(0.9);
+        }
+    }
+}

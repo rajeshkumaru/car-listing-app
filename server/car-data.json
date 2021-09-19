@@ -1,0 +1,190 @@
+{
+    "cars": [{
+            "id": "audi-e-tron",
+            "year": 2021,
+            "description": "This is an electric car that doesn’t seek to blur boundaries or act radical, but simply persuade regular SUV buyers to make the jump.",
+            "images": {
+                "img": "../../../../assets/audi-e-tron/img_main.jpg",
+                "prevImg": {
+                    "img1": "../../../../assets/audi-e-tron/img_prev_1.jpg",
+                    "img2": "../../../../assets/audi-e-tron/img_prev_2.jpg",
+                    "img3": "../../../../assets/audi-e-tron/img_prev_3.jpg"
+                }
+            },
+            "make": "Audi",
+            "model": "e-tron",
+            "kilometers": "50 KM",
+            "price": "100K CAD"
+        },
+        {
+            "id": "bmw-i3",
+            "year": 2019,
+            "description": "Modern interior styling, plenty of small-item storage throughout the cabin, simple rotary-knob infotainment controller.",
+            "images": {
+                "img": "../../../../assets/bmw-i3/bmw-i3_main.jpg",
+                "prevImg": {
+                    "img1": "../../../../assets/bmw-i3/img_1.jpg",
+                    "img2": "../../../../assets/bmw-i3/img_prev_2.jpg",
+                    "img3": "../../../../assets/bmw-i3/img_prev_3.jpg"
+                }
+            },
+            "make": "BMW",
+            "model": "SUV",
+            "kilometers": "70 KM",
+            "price": "70K CAD"
+        },
+        {
+            "id": "chevrolet-i3",
+            "year": 2019,
+            "description": "CHEVROLET VOLT CHARGES QUICKER, IMPROVES CONVENIENCE.",
+            "images": {
+                "img": "../../../../assets/chevrolet-i3/2019-Chevrolet-Volt-014.jpg",
+                "prevImg": {
+                    "img1": "../../../../assets/chevrolet-i3/2019-Chevrolet-Volt-007.jpg",
+                    "img2": "../../../../assets/chevrolet-i3/2019-Chevrolet-Volt-009.jpg",
+                    "img3": "../../../../assets/chevrolet-i3/2019-Chevrolet-Volt-011.jpg"
+                }
+            },
+            "make": "Chevrolet",
+            "model": "Volt",
+            "kilometers": "10 KM",
+            "price": "30K CAD"
+        },
+        {
+            "id": "dodge-vdgeiper",
+            "year": 2017,
+            "description": "The 2017 Dodge Viper is blessed with a stunning, seductive shape. Its big-engine, rear-drive formula remains appealing, even as the Viper drives off into the sunset.",
+            "images": {
+                "img": "../../../../assets/dodge-vdgeiper/dodge-vdgeiper-main.jpg",
+                "prevImg": {
+                    "img1": "../../../../assets/dodge-vdgeiper/img-prev-1.jpg",
+                    "img2": "../../../../assets/dodge-vdgeiper/img-prev-2.jpg",
+                    "img3": "../../../../assets/dodge-vdgeiper/img-prev-3.jpg"
+                }
+            },
+            "make": "Dodge",
+            "model": "Viper",
+            "kilometers": "111 KM",
+            "price": "35K CAD"
+        },
+        {
+            "id": "ferrari-portofino",
+            "year": 2018,
+            "description": "The Portofino Modificata comes with an extra 20 prancing horses.",
+            "images": {
+                "img": "../../../../assets/ferrari-portofino/ferrari-portofino-m.jpg",
+                "prevImg": {
+                    "img1": "../../../../assets/ferrari-portofino/ferrari-portofino-m.jpg",
+                    "img2": "../../../../assets/ferrari-portofino/ferrari-portofino-prev-2.jpg",
+                    "img3": "../../../../assets/ferrari-portofino/ferrari-portofino-prev-3.jpg"
+                }
+            },
+            "make": "Ferrari",
+            "model": "Portofino",
+            "kilometers": "50 KM",
+            "price": "105K CAD"
+        },
+        {
+            "id": "ford-mustang",
+            "year": 2020,
+            "description": "Hear the roar of a Mustang as the ground starts to tremble and your legs start to shake.",
+            "images": {
+                "img": "../../../../assets/ford-mustang/main.jpg",
+                "prevImg": {
+                    "img1": "../../../../assets/ford-mustang/prev-1.jpg",
+                    "img2": "../../../../assets/ford-mustang/prev-2.jpg",
+                    "img3": "../../../../assets/ford-mustang/prev-3.jpg"
+                }
+            },
+            "make": "Ford",
+            "model": "Mustang",
+            "kilometers": "200 KM",
+            "price": "205K CAD"
+        },
+        {
+            "id": "lexus-es",
+            "year": 2020,
+            "description": "The 2020 Lexus ES is a mid-size luxury sedan that delivers many of the things those shopping in this segment prize most.",
+            "images": {
+                "img": "../../../../assets/lexus-es/lexus-es-main.jpg",
+                "prevImg": {
+                    "img1": "../../../../assets/lexus-es/lexus-es-main.jpg",
+                    "img2": "../../../../assets/lexus-es/lexus-es-prev-1.jpg",
+                    "img3": "../../../../assets/lexus-es/lexus-es-prev-2.jpg"
+                }
+            },
+            "make": "Lexus",
+            "model": "ES",
+            "kilometers": "250 KM",
+            "price": "70K CAD"
+        },
+        {
+            "id": "jeep-wrangler-unlimited",
+            "year": 2020,
+            "description": "The four-door Jeep Wrangler Unlimited has overtaken the two-door as the bestselling body style, as it offers considerably more passenger- and cargo-carrying ability with nearly the same off-road capability.",
+            "images": {
+                "img": "../../../../assets/jeep-wrangler/jeep-wrangler-main.jpg",
+                "prevImg": {
+                    "img1": "../../../../assets/jeep-wrangler/jeep-wrangler-prev-1.jpg",
+                    "img2": "../../../../assets/jeep-wrangler/jeep-wrangler-prev-2.jpg",
+                    "img3": "../../../../assets/jeep-wrangler/jeep-wrangler-prev-3.jpg"
+                }
+            },
+            "make": "Jeep",
+            "model": "Wrangler Unlimited",
+            "kilometers": "250 KM",
+            "price": "80K CAD"
+        },
+        {
+            "id": "mercedes-benz-ag",
+            "year": 2020,
+            "description": "Mercedes-Benz AG is one of the world's largest manufacturers of luxury passenger cars.",
+            "images": {
+                "img": "../../../../assets/mercedes-benz/main.jpeg",
+                "prevImg": {
+                    "img1": "../../../../assets/mercedes-benz/prev-3.jpg",
+                    "img2": "../../../../assets/mercedes-benz/prev-1.jpg",
+                    "img3": "../../../../assets/mercedes-benz/prev-2.jpg"
+                }
+            },
+            "make": "Mercedes-Benz",
+            "model": "Ag",
+            "kilometers": "10 KM",
+            "price": "180K CAD"
+        },
+        {
+            "id": "tesla-model-x",
+            "year": 2021,
+            "description": "The Model X is a three-row electric crossover SUV with seating for up to seven.",
+            "images": {
+                "img": "../../../../assets/tesla-x/main.jpg",
+                "prevImg": {
+                    "img1": "../../../../assets/tesla-x/main.jpg",
+                    "img2": "../../../../assets/tesla-x/prev-1.jpg",
+                    "img3": "../../../../assets/tesla-x/prev-2.jpg"
+                }
+            },
+            "make": "Tesla",
+            "model": "Model X",
+            "kilometers": "10 KM",
+            "price": "180K CAD"
+        },
+        {
+            "id": "Volvo-XC90",
+            "year": 2021,
+            "description": "Supremely elegant and technologically advanced, the 2021 Volvo XC90 is one of the most desirable mid-size luxury crossovers.",
+            "images": {
+                "img": "../../../../assets/volvo/main.jpg",
+                "prevImg": {
+                    "img1": "../../../../assets/volvo/prev-3.jpg",
+                    "img2": "../../../../assets/volvo/prev-1.jpg",
+                    "img3": "../../../../assets/volvo/prev-2.jpg"
+                }
+            },
+            "make": "Volvo",
+            "model": "XC90",
+            "kilometers": "1010 KM",
+            "price": "140K CAD"
+        }
+    ]
+}

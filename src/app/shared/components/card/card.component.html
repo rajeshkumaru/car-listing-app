@@ -1,0 +1,12 @@
+<div class="card">
+    <app-image [imgUrl]="cardData.images.img"></app-image>
+    <div class="card-body">
+        <h5 class="card-title">{{ cardData.make | textFormatter }}</h5>
+        <div class="card-text">
+            <p class="model">Model: {{ cardData.model }}</p>
+            <p class="year">Year: {{ cardData.year }}</p>
+        </div>
+        <a class="btn btn-light btn-outline-secondary" (click)="clickActionButton(cardData.id)">View Details</a
+    >
+  </div>
+</div>

@@ -1,0 +1,8 @@
+.sticky-filter {
+    position: sticky;
+    z-index: 1020;
+    top: 56px;
+    input {
+        border: 1px solid darkgray;
+    }
+}

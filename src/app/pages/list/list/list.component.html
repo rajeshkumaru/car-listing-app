@@ -1,0 +1,24 @@
+<ng-container *ngIf="(searchString !== '' ? filteredData : data) | async as cars">
+    <app-data-filter [placeHolderText]="'Search by Make'" (filterText)="getSearchededText($event)"></app-data-filter>
+    <div *ngIf="cars.length; else noResults">
+        <main>
+            <div *ngIf="isLoading | async">
+                <app-loading></app-loading>
+            </div>
+            <div class="parent" *ngIf="!(isLoading | async)">
+                <div class="card-grid" *ngFor="let car of cars">
+                    <app-card [cardData]="car" (handleNavigation)="viewDetails($event)"></app-card>
+                </div>
+            </div>
+        </main>
+        <div class="mt-3 text-center" *ngIf="!(isLoading | async) && !searchString">
+            <app-pagination (loadMoreClickHandler)="loadMore()"></app-pagination>
+        </div>
+    </div>
+
+    <ng-template #noResults>
+        <div *ngIf="!(isLoading | async)">
+            <h4 class="ml-3">No results found!</h4>
+        </div>
+    </ng-template>
+</ng-container>
